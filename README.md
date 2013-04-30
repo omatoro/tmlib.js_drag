@@ -1,10 +1,10 @@
 tmlib.jsでドラッグ実装
 ========
 
-#inputClass拡張
+##inputClass拡張
 
-<script type="text/javascript" src="http://jsdo.it/blogparts/hNBP/js"></script>
+http://jsdo.it/omatoro/hNBP
 
-#inputClassを拡張せずにドラッグ実装
+##inputClassを拡張せずにドラッグ実装
 
-<script type="text/javascript" src="http://jsdo.it/blogparts/7iif/js"></script>
+http://jsdo.it/omatoro/7iif
