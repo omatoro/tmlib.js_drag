@@ -98,7 +98,6 @@ tm.input.Mouse.prototype.getPointingEndNonDrag = function() {
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 tm.input.Touch.prototype.init = function(element) {
     this.element = element || window.document;
     
@@ -114,20 +113,20 @@ tm.input.Touch.prototype.init = function(element) {
     this._touch = false;
     //-----------------------------------------------------------
     
-    var self = this;
-    this.element.addEventListener("touchstart", function(e){
-        self._touchmove(e);
-        self.prevPosition.setObject(self.position);
-        self.touched = true;
-    });
-    this.element.addEventListener("touchend", function(e){
-        self.touched = false;
-    });
-    this.element.addEventListener("touchmove", function(e){
-        self._touchmove(e);
-        // 画面移動を止める
-        e.stop();
-    });
+    // var self = this;
+    // this.element.addEventListener("touchstart", function(e){
+    //     self._touchmove(e);
+    //     self.prevPosition.setObject(self.position);
+    //     self.touched = true;
+    // });
+    // this.element.addEventListener("touchend", function(e){
+    //     self.touched = false;
+    // });
+    // this.element.addEventListener("touchmove", function(e){
+    //     self._touchmove(e);
+    //     // 画面移動を止める
+    //     e.stop();
+    // });
 };
 
 tm.input.Touch.prototype.update = function() {
